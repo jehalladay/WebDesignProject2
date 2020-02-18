@@ -1,0 +1,5 @@
+2/18/20: Started project with Cameron utilizing Github
+            created reset.css and reasoned together what tags and properties would be most appropriate
+            created basic website architecture 
+            created a template for the header
+            dragged base materials from download into git repo
