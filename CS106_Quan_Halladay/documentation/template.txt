@@ -1,0 +1,23 @@
+**************************************************************************
+Project: Web Design 1 - Assignment 2
+Filename:
+By. James Halladay, Cameron Quan             
+Login: jehalladay, cgquan             
+Assignment No: 2                
+
+**************************************************************************
+File Description:
+
+**************************************************************************
+I declare that all material in this assessment task is my work
+except where there is clear aknowledgement                   
+or reference to the work of others. I further declare that I  
+have complied and agreed to the CMU Academic Integrity Policy 
+at the University website.                                    
+
+Author's Name: James Halladay UID(700#): 700425363            
+Author's Name: Cameron Quan   UID(700#): 700467632           
+Date:                                      
+
+Date Last Modified:                                 
+**************************************************************************

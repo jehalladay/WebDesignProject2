@@ -1,0 +1,7 @@
+Cameron Quan 
+
+2/18/20:
+    Started assignment 2, joined group GitHub repositroy
+    Decided on the overall design and layout of the website
+    Created project.css, started on basic design ideas
+    Picked artist to research

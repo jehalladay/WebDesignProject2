@@ -1,3 +1,112 @@
+/* 
+**************************************************************************
+Project: Web Design 1 - Assignment 2
+Filename: project.css
+By. James Halladay, Cameron Quan                
+Login: jehalladay, cgquan      
+Assignment No: 2                
+
+**************************************************************************
+File Description: project CSS file
+
+**************************************************************************
+I declare that all material in this assessment task is my work
+except where there is clear aknowledgement                   
+or reference to the work of others. I further declare that I  
+have complied and agreed to the CMU Academic Integrity Policy 
+at the University website.                                    
+**************************************************************************                         
+
+Author's Name: James Halladay UID(700#): 700425363            
+Author's Name: Cameron Quan   UID(700#): 700467632       
+Date: 2/18/2020                                               
+
+Date Last Modified: 2/18/2020                                 
+**************************************************************************
+*/
+
+
+/* our CSS */
+
 body {
     background-image: url("white_tiles.png");
 }
+
+/* provided example CSS */
+
+
+/* body {
+    font-family: 'Merriweather', Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background: #150b09 url(../images/art-background4.jpg) no-repeat;
+    background-size: cover;
+}
+
+header, footer {
+    margin: 1rem 0 0 3rem;
+    background-color: rgba(33,33,33,0.75);
+    color: white;
+    width: 30rem;
+    padding: 1rem;
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.5);
+}
+
+footer { 
+    margin-top: 2rem;
+}
+
+header h1 { 
+    font-size: 3rem;
+}
+
+header h2 {
+    font-size: 0.75rem;
+}
+
+main {
+    background-color:rgba(255,255,255,0.5);
+    margin: 6rem 0 0 3rem;
+    width: 32rem;
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.5);
+}
+
+main h2 {
+    background-color:rgba(224,224,224,0.5);
+    padding: 1rem;
+    font-size: 1.5rem;  
+}
+
+p#announcement {
+    padding: 1rem 1rem 0 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+p#timeline {
+    margin: 0.5rem 0 0rem 1rem;
+    padding: 1rem;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(66,66,66,0.5);
+    color: white;
+    width: 19rem;
+}
+
+p#timeline super {
+    color: #BF360C;
+}
+
+p#footnote {
+    font-size: 1.0rem;
+    margin: 0.5rem 0 1rem 1rem;  
+    color: #BF360C;
+    font-style:italic;
+    padding: 1rem 0;    
+}
+
+footer img {
+    padding: 0.5rem;   
+    border: solid 1pt #9E9E9E;
+    margin-right: 5px;
+    margin-top: 5px;
+}    */

@@ -1,11 +1,10 @@
 /* 
 **************************************************************************
-Project: CS1 Assignment 2
+Project: Web Design 1 - Assignment 2
 Filename: reset.css
-By. James Halladay,                  
-Login: jehalladay,                    
+By. James Halladay, Cameron Quan                
+Login: jehalladay, cgquan      
 Assignment No: 2                
-
 
 **************************************************************************
 File Description: This file will reset the browser to a standard we can 
@@ -22,14 +21,14 @@ at the University website.
 Author's Name: James Halladay UID(700#): 700425363            
 Author's Name: Cameron Quan   UID(700#): 700467632       
 Date: 2/18/2020                                               
-                                                              
+
 Date Last Modified: 2/18/2020                                 
 **************************************************************************
 */
 
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -37,27 +36,22 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 	vertical-align: baseline;
 }
 
-
 :focus {
     outline: 0;
 }
-
 
 body {
 	line-height: 1;
 }
 
-
 ol, ul {
 	list-style: none;
 }
-
 
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 
 textarea {
     overflow: auto;
@@ -65,28 +59,23 @@ textarea {
     resize: vertical;
 }
 
-
 html {
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
-
 a:focus {
     outline: thin dotted;
 }
-
 
 a:active, a:hover {
     outline: 0;
 }
 
-
 img {
     border: 0;
 }
-
 
 figure {
     margin: 0;
@@ -118,27 +107,24 @@ textarea {
     vertical-align: baseline;
     *vertical-align: middle; 
 }
+
 textarea {
     overflow: auto;
     vertical-align: top;
 }
-
 
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-
 html, button, input, select, textarea {
     color: #222;
 }
 
-
 img {
     vertical-align: middle;
 }
-
 
 fieldset {
     border: 0;
