@@ -1,2 +1,2 @@
-# WebDesignProject2
-A project done for our Web Design 1 class
+# Web Design 1 - Project 2
+A four page website about art
