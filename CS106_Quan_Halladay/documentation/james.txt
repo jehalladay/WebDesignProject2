@@ -12,3 +12,6 @@
 
 
 2/19/20: Started work on index.html and project.css
+            picked out claude monet as an artist
+            did research on him (wikipedia/reverse image search)
+            created a folder with his works contained in it
