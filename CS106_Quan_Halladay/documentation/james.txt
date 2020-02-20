@@ -3,3 +3,6 @@
             created basic website architecture 
             created a template for the header
             dragged base materials from download into git repo
+
+2/19/20: Made a branch in github, james_form_1
+            unifying design scheme
