@@ -3,3 +3,12 @@
             created basic website architecture 
             created a template for the header
             dragged base materials from download into git repo
+
+
+
+
+
+
+
+
+2/19/20: Started work on index.html and project.css
