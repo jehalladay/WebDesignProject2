@@ -28,16 +28,16 @@ Date Last Modified: 2/18/2020
 
 /* our CSS */
 
-body {
-    background-image: url("background.png");
-}
+/* body {
+} */
 
 /* provided example CSS */
 
-/* body {
+body {
     font-family: 'Merriweather', Georgia, Cambria, "Times New Roman", serif;
     font-size: 100%;
-    background: #150b09 url(../images/art-background4.jpg) no-repeat;
+    /* background: #150b09 url(../index_example_photos/art-background4.jpg) no-repeat; */
+    background-image: url("background.png");
     background-size: cover;
 }
 
@@ -108,4 +108,14 @@ footer img {
     border: solid 1pt #9E9E9E;
     margin-right: 5px;
     margin-top: 5px;
-}    */
+}
+
+.big {
+    position: absolute;
+    left: -9999px;
+}
+
+img:hover .big {
+    left: 60px;
+    top: -150px;
+}
