@@ -26,29 +26,65 @@ Date Last Modified: 2/18/2020
 */
 
 
-/* our CSS */
-
-/* body {
-} */
-
-/* provided example CSS */
+/* my CSS */
 
 body {
     font-family: 'Merriweather', Georgia, Cambria, "Times New Roman", serif;
     font-size: 100%;
-    /* background: #150b09 url(../index_example_photos/art-background4.jpg) no-repeat; */
+    margin: 0em;
     background-image: url("background.png");
-    background-size: cover;
+}
+
+hr {
+    width: 90%;
+}
+
+/* li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
 }
 
 header, footer {
-    margin: 1rem 0 0 3rem;
-    background-color: rgba(33,33,33,0.75);
-    color: white;
-    width: 30rem;
-    padding: 1rem;
-    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.5);
+    background-color: #000000;
+    padding: 1em;
+    margin: 0;
+} */
+
+/* .wrapper {
+    height: 100vh;
+} */
+
+
+/* nav bar CSS */
+
+nav {
+    background: #323232; /*nav bar background color*/
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 1em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; /*adds space inbetween text*/
+    max-width: 1000px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: #B8B8B8;
+}
+
+
+/* exmaple CSS */
 
 footer { 
     margin-top: 2rem;
@@ -108,14 +144,4 @@ footer img {
     border: solid 1pt #9E9E9E;
     margin-right: 5px;
     margin-top: 5px;
-}
-
-.big {
-    position: absolute;
-    left: -9999px;
-}
-
-img:hover .big {
-    left: 60px;
-    top: -150px;
-}
+}   
