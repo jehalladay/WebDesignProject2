@@ -1,13 +1,13 @@
 <!--
 **************************************************************************
 Project: Web Design 1 - Assignment 2
-Filename: form.html
+Filename: index.html
 By. James Halladay, Cameron Quan             
 Login: jehalladay, cgquan             
 Assignment No: 2                
 
 **************************************************************************
-File Description: this is a form for our website
+File Description: this is the homepage of our website
 
 **************************************************************************
 I declare that all material in this assessment task is my work
@@ -25,129 +25,57 @@ Date Last Modified: 2/18/20
 -->
 
 
-<!-- PAGE 4 -->
-<!-- form to fill out information -->
+<!-- PAGE 1 -->
+<!-- website homepage -->
 <!DOCTYPE html>
 <html lang="en">
-<head >
+<head>
    <meta charset="utf-8">
-   <title>Form</title>
-   <link rel="stylesheet" href="reset.css" />
-   <link rel="stylesheet" href="../css/form.css" />
+   <title>Art Collection</title>
+   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="css/reset.css" />
+   <link rel="stylesheet" href="../css/project.css" />      
 </head>
 <body>
-<header>
-   <h1>Share Your Travels</h1>
-   <p>let us know where you've been</p>
-</header>
-<main>
-   <section>
-      <form method="post" action="http://www.randyconnolly.com/tests/process.php">
-         <fieldset>
-            <legend>Photo Details</legend>
-            <table>
-               <tr>
-                  <td colspan="2">
-                     <p>
-                     <label>Title</label><br/>
-                     <input type="text" name="title" placeholder="Give your photo a descriptive name" />
-                     </p>
-                     <p>
-                     <label>Description</label><br/>
-                     <textarea name="description" rows="5" cols="61" placeholder="Adding a rich description will help with search results"></textarea>
-                     </p>            
-                  </td>
-               </tr>
-               <tr>
-                  <td> 
-                     <p> 
-                     <label>Continent</label><br/>
-                     <select name="continent">
-                        <option>Choose continent</option> 
-                        <option>Africa</option>
-                        <option>Asia</option>
-                        <option>Europe</option>
-                        <option>North America</option>
-                        <option>South America</option>
-                     </select>
-                     </p>
-                     <p> 
-                     <label>Country</label><br/>
-                     <select name="country">
-                        <option>Choose country</option> 
-                        <option>Canada</option>
-                        <option>Mexico</option>
-                        <option>United States</option>
-                     </select>
-                     </p>
-                     <p>	
-                     <label>City</label><br/>               
-                     <input type="text" name="city" list="cities" />
-                     <datalist id="cities">
-                        <option>Calgary</option>                
-                        <option>Montreal</option>
-                        <option>Toronto</option>                  
-                        <option>Vancouver</option>
-                     </datalist>
-                     </p>
-                  </td>
-                  <td>
-                     <div class="box">
-                        <label>Copyright? </label><br/>
-                        <input type="radio" name="copyright" value="1">All rights reserved<br/>
-                        <input type="radio" name="copyright" value="2" checked>Creative Commons<br/>
-                     </div>
-                     <div class="box">
-                        <label>Creative Commons Types </label><br/>
-                        <input type="checkbox" name="cc[]" value="1">Attribution <br/>
-                        <input type="checkbox" name="cc[]" value="2">Noncommercial <br/>    
-                        <input type="checkbox" name="cc[]" value="3">No Derivative Works <br/>  
-                     </div>               
-                  </td>
-               </tr>
-               <tr>
-                  <td colspan="2" >
-                  <div class="rectangle"> 
-                     <label>I accept the software license</label>
-                     <input type="checkbox" name="accept" >
-                  </div>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                        <p>
-                        <label>Rate this photo: <br/>
-                        <input type="number" min="1" max="5" name="rate" />  
-                        </p>                  
-                        <p>
-                        <label>Color Collection: <br/>
-                        <input type="color"  name="color" />   
-                        </p>                  
-                  </td>
-                  <td>
-                     <div class="box">
-                        <p>
-                        <label>Date Taken: <br/>
-                        <input type="date"  name="date" />   
-                        </p>
-                        <p>
-                        <label>Time Taken: <br/>
-                        <input type="time"  name="time" />   
-                        </p>                  
-                     </div>
-                  </td>
-               </tr>
-               <tr>
-                  <td colspan="2">
-                     <div class="rectangle"> 
-                        <input type="submit" class="rounded"> <input type="reset" value="Clear Form" class="rounded">      
-                     </div>
-                  </td>
-               </tr>
-            </table>
-         </fieldset>
-      </form>       
-   </section>
-</main>  
+   <header>
+      <nav> 
+         <ul>
+            <!-- CHANGE NAMES OF THE FILES AND LINKS -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="james_artist.html">Claude Monet</a></li>
+            <li><a href="camerons_artist.html">Cameron's Artist</a></li>
+            <li><a href="form.html">Feedback</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <h1>Art Collection</h1>
+      <h2>Still waiting</h2>
+      <p id="announcement">Our website will be live in</p>
+      <p id="timeline">4 years, 3 months, and 2 days<sup>*</sup></p>
+      <p id="footnote"><sup>*</sup>hopefully</p>
+      <h2>Recent Acquisitions</h2>
+      <div>
+         <img src="../index_example_photos/07020.jpg" >
+         <img src="../index_example_photos/05030.jpg" >
+         <img src="../index_example_photos/106020.jpg" >
+      </div>
+   </main>
+   <hr>
+   <footer>
+      <!-- <table>
+         <tr>
+            <td>
+               <li><a href="index.html">Home</a></li>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <li><a href="james_artist.html">Claude Monet</a></li>
+            </td>
+         </tr>
+      </table> -->
+      
+   </footer>   
 </body>
 </html>

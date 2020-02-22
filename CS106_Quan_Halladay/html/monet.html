@@ -1,13 +1,13 @@
 <!--
 **************************************************************************
 Project: Web Design 1 - Assignment 2
-Filename: index.html
+Filename: photo_gallery.html
 By. James Halladay, Cameron Quan             
 Login: jehalladay, cgquan             
 Assignment No: 2                
 
 **************************************************************************
-File Description: this is the homepage of our website
+File Description: this is the photo gallery with all the art work
 
 **************************************************************************
 I declare that all material in this assessment task is my work
@@ -25,57 +25,76 @@ Date Last Modified: 2/18/20
 -->
 
 
-<!-- PAGE 1 -->
-<!-- website homepage -->
+<!-- PAGE 2 -->
+<!-- about artist 1 -->
+<!-- integrate code to index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="utf-8">
-   <title>Art Collection</title>
-   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-   <link rel="stylesheet" href="css/reset.css" />
-   <link rel="stylesheet" href="../css/project.css" />      
+<head>	
+  <meta charset="utf-8">
+  <title>Artwork Gallery</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="../css/project.css" />      
+  <style> 
+    #gallery { position: relative; }
+    #gallery ul { 
+      width: 250px; 
+      list-style-type: none; 
+    }
+    #gallery li { 
+      display: inline; 
+      float: left; 
+      padding: 10px; 
+    }
+    #gallery img { 
+      border-style: none; 
+    }
+    #gallery a { 
+      text-decoration: none; 
+      color: #333; 
+      font-style: italic;
+    }
+    #gallery span { 
+      display: none; 
+    }    
+    #gallery a:hover span { 
+      display: block; 
+      position: absolute;
+      top: 10px; 
+      left: 300px; 
+      text-align: center; 
+    }
+  </style>
 </head>
 <body>
-   <header>
-      <nav> 
-         <ul>
-            <!-- CHANGE NAMES OF THE FILES AND LINKS -->
-            <li><a href="index.html">Home</a></li>
-            <li><a href="james_artist.html">Claude Monet</a></li>
-            <li><a href="camerons_artist.html">Cameron's Artist</a></li>
-            <li><a href="form.html">Feedback</a></li>
-         </ul>
-      </nav>
-   </header>
-   <main>
-      <h1>Art Collection</h1>
-      <h2>Still waiting</h2>
-      <p id="announcement">Our website will be live in</p>
-      <p id="timeline">4 years, 3 months, and 2 days<sup>*</sup></p>
-      <p id="footnote"><sup>*</sup>hopefully</p>
-      <h2>Recent Acquisitions</h2>
-      <div>
-         <img src="../index_example_photos/07020.jpg" >
-         <img src="../index_example_photos/05030.jpg" >
-         <img src="../index_example_photos/106020.jpg" >
-      </div>
-   </main>
-   <hr>
-   <footer>
-      <!-- <table>
-         <tr>
-            <td>
-               <li><a href="index.html">Home</a></li>
-            </td>
-         </tr>
-         <tr>
-            <td>
-               <li><a href="james_artist.html">Claude Monet</a></li>
-            </td>
-         </tr>
-      </table> -->
-      
-   </footer>   
+  <h1>Artwork Gallery</h1>
+  <div id="gallery">
+  <ul>
+    <li>
+      <a href="../photo_gallery_exmaple_photos/photo1.jpg"><img src="../photo_gallery_exmaple_photos/photo1thumb.jpg" 
+        width="100" height="75" alt="Golden Gate Bridge">
+        <span><img src="../photo_gallery_exmaple_photos/photo1.jpg" width="250" height="150"
+        alt="Golden Gate Bridge"><br>Golden Gate Bridge</span></a>
+    </li>
+    <li>
+      <a href="../photo_gallery_exmaple_photos/photo2.jpg"><img src="../photo_gallery_exmaple_photos/photo2thumb.jpg" 
+        width="100" height="75" alt="California Beach">
+        <span><img src="../photo_gallery_exmaple_photos/photo2.jpg" width="250" height="150"
+        alt="California Beach"><br>California Beach</span></a>
+    </li>
+    <li>
+      <a href="../photo_gallery_exmaple_photos/photo3.jpg"><img src="../photo_gallery_exmaple_photos/photo3thumb.jpg" 
+        width="100" height="75" alt="Rocky Shoreline">
+        <span><img src="../photo_gallery_exmaple_photos/photo3.jpg" width="250" height="150"
+        alt="Rocky Shoreline"><br>Rocky Shoreline</span></a>
+    </li>
+    <li>
+      <a href="../photo_gallery_exmaple_photos/photo4.jpg"><img src="../photo_gallery_exmaple_photos/photo4thumb.jpg" 
+        width="100" height="75" alt="Pacific Sunset">
+        <span><img src="../photo_gallery_exmaple_photos/photo4.jpg" width="250" height="150"
+        alt="Pacific Sunset"><br>Pacific Sunset</span></a>
+    </li>
+  </ul>
+  </div>
 </body>
 </html>
