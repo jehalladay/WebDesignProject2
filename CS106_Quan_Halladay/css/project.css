@@ -26,54 +26,117 @@ Date Last Modified: 2/18/2020
 */
 
 
-/* our CSS */
+/* body CSS */
 
 body {
+    font-family: 'Merriweather', Georgia, Cambria, "Times New Roman", serif;
+    margin: 0em;
     background-image: url("background.png");
 }
 
-/* provided example CSS */
-
-/* body {
-    font-family: 'Merriweather', Georgia, Cambria, "Times New Roman", serif;
-    font-size: 100%;
-    background: #150b09 url(../images/art-background4.jpg) no-repeat;
-    background-size: cover;
+.homePageDescription {
+    background-color: #FFFFFF;
+    padding: 0.25em 1em 0.25em 1em;
+    margin: 1em 1em 1em 1em; /*increase top margin if using locked navbar*/
+    width: 28em;
 }
 
-header, footer {
-    margin: 1rem 0 0 3rem;
-    background-color: rgba(33,33,33,0.75);
-    color: white;
-    width: 30rem;
-    padding: 1rem;
-    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.5);
+.homePageMain {
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin: 3em 5em 3em 5em;
+    width: 32em;
+    box-shadow: 1em 1em 1em #6b6b6b;
+}
+
+h1 { 
+    font-size: 4em;
+    margin: 0em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+hr {
+    width: 90%;
+}
+
+
+/* nav bar and footer CSS */
+
+nav {
+    background: #323232; /*nav bar background color*/
+    /* position: fixed; */ /*for locked navbar*/
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; /*adds space inbetween text*/
+    max-width: 1000px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: #B8B8B8;
 }
 
 footer { 
-    margin-top: 2rem;
+    margin-top: 2em;
 }
 
-header h1 { 
-    font-size: 3rem;
+
+/* galley CSS */
+
+#gallery { 
+    position: relative; 
 }
 
-header h2 {
-    font-size: 0.75rem;
+#gallery ul { 
+    /* width: 250px;  */
+    list-style-type: none; 
 }
 
-main {
-    background-color:rgba(255,255,255,0.5);
-    margin: 6rem 0 0 3rem;
-    width: 32rem;
-    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.5);
+#gallery li { 
+    display: inline; 
+    /* float: left;  */
+    padding: 10px; 
 }
 
-main h2 {
-    background-color:rgba(224,224,224,0.5);
-    padding: 1rem;
-    font-size: 1.5rem;  
+#gallery img { 
+    border-style: none; 
 }
+
+#gallery a { 
+    text-decoration: none; 
+    color: #333; 
+    font-style: italic; 
+}
+
+#gallery span { 
+    display: none; 
+}
+
+#gallery a:hover span { 
+    display: block; 
+    position: absolute;
+    top: 10px; 
+    left: 900px; 
+    text-align: center; 
+}
+
+
+/* exmaple CSS */
 
 p#announcement {
     padding: 1rem 1rem 0 1rem;
@@ -108,4 +171,4 @@ footer img {
     border: solid 1pt #9E9E9E;
     margin-right: 5px;
     margin-top: 5px;
-}    */
+}   
