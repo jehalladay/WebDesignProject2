@@ -116,7 +116,31 @@ main h2 {
 /* Objects on james_artist.html */
 
 
+.display {
+    padding-top: 3em;
+}
 
+.display p {
+    width: 7em;
+    padding: 1em;
+    /* float: left; */
+}
+
+.display img {
+    border-style: none;
+}
+
+.display span {
+    display: none;
+}
+
+.display a:hover span {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 7em;
+    top: 1em
+}
 
 #gallery { position: relative; }
 
@@ -128,8 +152,8 @@ main h2 {
 
 
     #gallery li { 
-      display: inline; 
       float: left; 
+      display: inline; 
       padding: 10px; 
     }
 
