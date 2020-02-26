@@ -37,9 +37,9 @@ h1, h2, h3, nav, footer {
 }
 
 body {
-   font-family: "Open Sans", Verdana, Arial, sans-serif;
-   font-size: 100%;
-   background-color: #E8EAF6;
+   font-family: 'Merriweather', Georgia, Cambria, "Times New Roman", serif;
+   margin: 0em;
+   background-image: url("background.png");
 }
 
 /* header and navigation */

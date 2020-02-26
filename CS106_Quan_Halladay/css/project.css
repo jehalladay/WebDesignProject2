@@ -119,13 +119,11 @@ span.a {
 }
 
 #gallery ul { 
-    /* width: 250px;  */
     list-style-type: none; 
 }
 
 #gallery li { 
     display: inline; 
-    /* float: left;  */
     padding: 10px; 
 }
 
@@ -135,7 +133,7 @@ span.a {
 
 #gallery a { 
     text-decoration: none; 
-    color: #333; 
+    color: #000000; 
     font-style: italic; 
 }
 
@@ -150,41 +148,3 @@ span.a {
     left: 850px; 
     text-align: center; 
 }
-
-
-/* exmaple CSS */
-
-p#announcement {
-    padding: 1rem 1rem 0 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-p#timeline {
-    margin: 0.5rem 0 0rem 1rem;
-    padding: 1rem;
-    font-size: 1.2em;
-    font-weight: bold;
-    background-color: rgba(66,66,66,0.5);
-    color: white;
-    width: 19rem;
-}
-
-p#timeline super {
-    color: #BF360C;
-}
-
-p#footnote {
-    font-size: 1.0rem;
-    margin: 0.5rem 0 1rem 1rem;  
-    color: #BF360C;
-    font-style:italic;
-    padding: 1rem 0;    
-}
-
-footer img {
-    padding: 0.5rem;   
-    border: solid 1pt #9E9E9E;
-    margin-right: 5px;
-    margin-top: 5px;
-}   

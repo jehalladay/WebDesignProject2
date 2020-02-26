@@ -38,24 +38,33 @@ Date Last Modified: 2/18/20
 </head>
 <body>
 <header>
-   <h1>Share Your Travels</h1>
-   <p>let us know where you've been</p>
+   <nav class="navTop"> 
+      <ul class="navTopUL">
+         <!-- CHANGE NAMES OF THE FILES AND LINKS -->
+         <li><a href="index.html">Home</a></li>
+         <li><a href="james_artist.html">Claude Monet</a></li>
+         <li><a href="camerons_artist.html">Van Gogh</a></li>
+         <li><a href="form.html">Feedback</a></li>
+      </ul>
+   </nav>
 </header>
 <main>
+   <h1>Give us your feedback!</h1>
+   <p>Please fill out the entire form.</p>
    <section>
       <form method="post" action="http://www.randyconnolly.com/tests/process.php">
          <fieldset>
-            <legend>Photo Details</legend>
+            <legend>Feedback</legend>
             <table>
                <tr>
                   <td colspan="2">
                      <p>
-                     <label>Title</label><br/>
-                     <input type="text" name="title" placeholder="Give your photo a descriptive name" />
+                     <label>Feedback Title</label><br/>
+                     <input type="text" name="title" placeholder="Enter your feedback topic" />
                      </p>
                      <p>
-                     <label>Description</label><br/>
-                     <textarea name="description" rows="5" cols="61" placeholder="Adding a rich description will help with search results"></textarea>
+                     <label>Comments</label><br/>
+                     <textarea name="description" rows="5" cols="61" placeholder="Give us any comments"></textarea>
                      </p>            
                   </td>
                </tr>
