@@ -45,7 +45,7 @@ body {
     background-color: #FFFFFF;
     padding: 1em;
     margin: 3em 5em 3em 5em;
-    width: 32em;
+    width: 42em;
     box-shadow: 1em 1em 1em #6b6b6b;
 }
 
@@ -65,14 +65,14 @@ hr {
 
 /* nav bar and footer CSS */
 
-nav {
+.navTop {
     background: #323232; /*nav bar background color*/
     /* position: fixed; */ /*for locked navbar*/
     top: 0;
     width: 100%;
 }
 
-nav ul {
+.navTopUL {
     list-style-type: none;
     padding: 1em;
     margin: 0 auto;
@@ -92,8 +92,24 @@ nav a:hover {
 }
 
 footer { 
+    background: #323232;
+    opacity: 90%;
     margin-top: 2em;
+    padding: 1em;
+    color: white;
 }
+
+.navBottomUL {
+    list-style-type: none;
+    line-height: 2em;
+}
+
+span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+} 
 
 
 /* galley CSS */
@@ -130,8 +146,8 @@ footer {
 #gallery a:hover span { 
     display: block; 
     position: absolute;
-    top: 10px; 
-    left: 900px; 
+    top: 5px; 
+    left: 850px; 
     text-align: center; 
 }
 
