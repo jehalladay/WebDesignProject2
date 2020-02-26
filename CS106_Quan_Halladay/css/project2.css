@@ -116,31 +116,45 @@ main h2 {
 /* Objects on james_artist.html */
 
 
-.display {
+/* .display {
     padding-top: 3em;
-}
-
-.display p {
+} */
+/* 
+/* .display {
+    position: relative;
     width: 7em;
-    padding: 1em;
-    /* float: left; */
-}
+    padding-top: 3em;
+    padding-bottom: 5em;
+    box-sizing: border-box;
+} */
+/* 
+.display ul {
+    width: 250px; 
+    list-style-type: none;
+} */
 
-.display img {
+/* .display li {
+    float: left;
+} */
+
+/* .display img {
     border-style: none;
-}
+    float: left;
+} */
 
-.display span {
+/* .display span {
+    float: center;
     display: none;
-}
+} */
 
-.display a:hover span {
+/* .display a:hover span {
     display: block;
     text-align: center;
+    float: right;
     position: relative;
     left: 7em;
     top: 1em
-}
+}  */
 
 #gallery { position: relative; }
 
@@ -162,6 +176,7 @@ main h2 {
       border-style: none; 
     }
 
+
     #gallery a { 
       text-decoration: none; 
       color: #333; 
@@ -173,6 +188,48 @@ main h2 {
     }    
     
     #gallery a:hover span { 
+      display: block; 
+      position: absolute;
+      top: 10px; 
+      left: 300px; 
+      text-align: center; 
+    }
+
+
+.display { 
+    padding-top: 5em;
+    padding-bottom: 10em;
+    position: relative; }
+
+
+    .display ul { 
+      width: 250px; 
+      list-style-type: none; 
+    }
+
+
+    .display li { 
+      float: left; 
+      display: inline; 
+      padding: 10px; 
+    }
+
+
+    .display img { 
+      border-style: none; 
+    }
+
+    .display a { 
+      text-decoration: none; 
+      color: #333; 
+      font-style: italic;
+    }
+
+    .display span { 
+      display: none; 
+    }    
+    
+    .display a:hover span { 
       display: block; 
       position: absolute;
       top: 10px; 
