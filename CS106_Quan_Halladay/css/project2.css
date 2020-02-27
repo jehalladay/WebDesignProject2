@@ -101,7 +101,7 @@ header h2 {
 main {
     background-color:rgba(255,255,255,0.5);
     margin: 6rem 0 0 3rem;
-    width: 32rem;
+    width: 50rem;
     box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.5);
 }
 
@@ -160,8 +160,9 @@ main h2 {
 
 
     #gallery ul { 
-      width: 250px; 
+      width: 25rem; 
       list-style-type: none; 
+      padding-bottom: 30em;
     }
 
 
@@ -169,6 +170,12 @@ main h2 {
       float: left; 
       display: inline; 
       padding: 10px; 
+      padding-bottom: 5rem;
+      padding-top: 5rem;
+    }
+
+    #gallery .text {
+        clear: left;
     }
 
 
@@ -190,8 +197,8 @@ main h2 {
     #gallery a:hover span { 
       display: block; 
       position: absolute;
-      top: 10px; 
-      left: 300px; 
+      top: 15rem; 
+      left: 65rem; 
       text-align: center; 
     }
 
