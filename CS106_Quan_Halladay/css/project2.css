@@ -129,16 +129,32 @@ main h2 {
 }
   
 .works { 
-    width: 25rem; 
+    width: 35rem; 
     list-style-type: none; 
     padding-bottom: 26em;
 }
 
-.text {
+.about {
     clear: left;
     padding: 2rem
 }
 
+.par {
+    padding: 2rem
+
+}
+
+.sep {
+    margin-bottom: 8rem;
+}
+
+#foot {
+    margin-top: 3rem;
+}
+
+/* .par section {
+    padding-top: 5rem;
+} */
 
 #galleryArtist { position: relative; }
 
@@ -171,7 +187,7 @@ main h2 {
     #galleryArtist a:hover span { 
       display: block; 
       position: absolute;
-      top: 2rem; 
+      top: -12rem; 
       left: 65rem; 
       text-align: center; 
     }
@@ -213,10 +229,6 @@ main h2 {
     }
 
 
-    .par {
-        padding: 2rem
-
-    }
 
 
 
