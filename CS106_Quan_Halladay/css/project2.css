@@ -134,14 +134,20 @@ main h2 {
     padding-bottom: 26em;
 }
 
+.worksBottom { 
+    width: 35rem; 
+    list-style-type: none; 
+    /* padding-bottom: 20em; */
+}
+
 .about {
     clear: left;
     padding: 2rem
 }
 
 .par {
+    margin-top: 5rem;
     padding: 2rem
-
 }
 
 .sep {
