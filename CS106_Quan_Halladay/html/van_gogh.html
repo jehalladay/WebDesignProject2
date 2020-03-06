@@ -1,13 +1,13 @@
 <!--
 **************************************************************************
 Project: Web Design 1 - Assignment 2
-Filename: camerons_artist.html
+Filename: photo_gallery.html
 By. James Halladay, Cameron Quan             
 Login: jehalladay, cgquan             
 Assignment No: 2                
 
 **************************************************************************
-File Description: this is about the artist van gogh
+File Description: this is the photo gallery with all the art work
 
 **************************************************************************
 I declare that all material in this assessment task is my work
@@ -20,56 +20,257 @@ Author's Name: James Halladay UID(700#): 700425363
 Author's Name: Cameron Quan   UID(700#): 700467632           
 Date: 2/18/20                                     
 
-Date Last Modified: 3/6/20                                                                     
+Date Last Modified: 2/18/20                                                                     
 **************************************************************************
 -->
 
 
-<!-- PAGE 3 -->
-<!-- about van gogh -->
+<!-- PAGE 2 -->
+<!-- about artist 1 -->
+<!-- integrate code to index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>	
     <meta charset="utf-8">
-    <title>About Van Gogh</title>
+    <title>Artwork Gallery</title>
     <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="../css/project.css" />      
+    <link rel="stylesheet" href="../css/project2.css" />      
 </head>
-<header>
-    <nav class="navTop"> 
-        <ul class="navTopUL">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="claude_monet.html">Claude Monet</a></li>
-        <li><a href="van_gogh.html">Van Gogh</a></li>
-        <li><a href="form.html">Feedback</a></li>
-    </ul>
-</nav>
-</header>
 <body>
-    <footer>
-        <div id="wrapper">
-            <div id="first">
-                <nav> 
-                    <ul class="navBottomUL">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="claude_monet.html">Claude Monet</a></li>
-                    <li><a href="van_gogh.html">Van Gogh</a></li>
-                    <li><a href="form.html">Feedback</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="second">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br /> <br />
+    <header>
+        <nav> 
+           <ul>
+              <!-- CHANGE NAMES OF THE FILES AND LINKS -->
+              <li><a href="index.html">Home</a></li>
+              <li><a href="james_artist.html">Claude Monet</a></li>
+              <li><a href="camerons_artist.html">Cameron's Artist</a></li>
+              <li><a href="form.html">Feedback</a></li>
+           </ul>
+        </nav>
+    </header>
 
-                    <i>James Halladay and Cameron Quan - Spring 2020, CSCI 106-002</i>
-                </p>
+    <main class="sep">
+        <h1 id="title">Post-Impressionist Gallery</h1>
+
+        <div>
+            <h2>
+                Vincent van Gogh
+            </h2>
+
+            <div id="galleryArtist">
+                <ul class="artist">
+                    <li>
+                        <a href="../photos/Cameron/artist/19med.jpg">
+                            <img src="../photos/Cameron/artist/19medsquare.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/artist/19med.jpg" width="350"  alt="Golden Gate Bridge" class="authorImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="about">
+                <section>
+                    <p>Born: </p>
+                    <ul>
+                        <li>Vincent Willem van Gogh</li>
+                        <li>30 March 1853</li>
+                        <li>Zundert, Netherlands</li>
+                    </ul>
+
+                    <p>Died:</p>
+                    <ul>
+                        <li>29 July 1890 (aged 37)</li>
+                        <li>Auvers-sur-Oise, France</li>
+                        <li>Suicide by gunshot </li>
+                    </ul>
+
+                </section>
+            </div>
+
+            <div id="gallery">
+                <ul class="works">
+                    <li>
+                        <a href="../photos/Cameron/works/medium/019010.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019010.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019010.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019020.jpg.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019020.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019020.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019040.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019040.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019040.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019050.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019050.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019050.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019060.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019060.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019060.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019070.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019070.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019070.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="par">
+                <section>
+                    <p>
+                        Vincent Willem van Gogh was a Dutch post-impressionist painter most famously known for such works as Bedroom in Arles (1888), The Starry Night (1889), and Wheatfield with Crows (1890). 
+                        Post-impressionism is a French art movement that occurred between 1886 and 1905. These artists evoked emotion in their work rather than portraying realism. 
+                        Such a style resulted in varied paintings between artists with unnatural color and symbolic motifs. 
+                    </p>
+
+                    <p>
+                        Born into a an upper-middle-class family, Van Gogh was serious, quiet, and thoughtful. He worked as an art dealer but became depressed later in his life. 
+                        He also suffered from psychotic episodes and delusions. He worried about his metal health but did not treat his body right. Heavy drinking and not eating properly took a toll on him. 
+                        In a confrontation with Gauguin, Van Gogh lost part of his left his ear when in rage he cut it off with a razor. 
+                        Finally, in 1890 depression got the better of him and Van Gogh shot himself in the chest fatality wounding himself. He died from his injuries two days later.
+                    </p>
+
+                    <p>                        
+                        Regarded as one of the best painters to ever live, Van Gogh saw no success while he was alive. He was considered to be a madman and a failure. 
+                        However, around the 20th century he began to gain popular success and would now be remembered as a tragic, but important painter. 
+                        Van Gogh’s works are now among the most expensive pieces of art to ever be sold.
+                    </p>
+
+                    <p>Sources:</p>
+                    <ul>
+                        <li>https://mymodernmet.com/post-impressionism/</li>
+                        <li>https://en.wikipedia.org/wiki/Post-Impressionism</li>
+                        <li>https://en.wikipedia.org/wiki/Vincent_van_Gogh</li>
+                    </ul>
+
+                </section>
+            </div>
+
+            
+
+            <div id="gallery">
+                <ul class="works">
+                    <li>
+        
+                        <a href="../photos/Cameron/works/medium/019080.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019080.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019080.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019110.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019110.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019110.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019120.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019120.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019120.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019130.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019130.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019130.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019140.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019140.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019140.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+
+                        <a href="../photos/Cameron/works/medium/019150.jpg">
+                            <img src="../photos/Cameron/works/square-medium/019150.jpg" alt="Golden Gate Bridge">
+                            <span>
+                                <img src="../photos/Cameron/works/medium/019150.jpg" width="350"  alt="Golden Gate Bridge" class="worksImg">
+                                <br>Golden Gate Bridge
+                            </span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </footer>
+    </main>
+        
+    <hr>
+        
+    <footer id="foot">
+
+        <div class="clearfix">
+            <div class="box">
+               <ul class="navBottomUL">
+                  <li><b>Other Pages</b></li> <br />
+                  <!-- CHANGE NAMES OF THE FILES AND LINKS -->
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="james_artist.html">Claude Monet</a></li>
+                  <li><a href="camerons_artist.html">Cameron's Artist</a></li>
+                  <li><a href="form.html">Feedback</a></li>
+               </ul>
+            </div>
+
+            <!-- <div class="box">
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </div> -->
+
+
+        </div>
+        <!-- <table>
+            <tr>
+                <td>
+                    <li><a href="index.html">Home</a></li>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <li><a href="james_artist.html">Claude Monet</a></li>
+                </td>
+            </tr>
+        </table> -->
+     </footer>   
 </body>
 </html>
