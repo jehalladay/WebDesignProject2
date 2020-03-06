@@ -61,7 +61,7 @@ Date Last Modified: 2/18/20
                      <input type="text" name="title" placeholder="Title" />
                      </p>
                      <p>
-                     <label>Comments</label><br/>
+                     <label>Comments About the Website</label><br/>
                      <textarea name="description" rows="5" cols="61" placeholder="This website is great!"></textarea>
                      </p>            
                   </td>
@@ -69,84 +69,44 @@ Date Last Modified: 2/18/20
                <tr>
                   <td> 
                      <p> 
-                     <label>Which artist was your favorite?</label><br/>
+                     <label>Which showcased artist is your favorite?</label><br/>
                      <select name="artist">
                         <option>Choose artist</option> 
                         <option>Claude Monet</option>
                         <option>Van Gogh</option>
+                        <option>Other</option>
                      </select>
                      </p>
                      <p> 
-                     <label>Which of the given peices was your favorite?</label><br/>
+                     <label>Which of the listed pieces is your favorite?</label><br/>
                      <select name="country">
-                        <option>Choose peice</option> 
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
+                        <option>Choose piece</option> 
+                        <option>Pablo Picasso: The Tragedy</option>
+                        <option>Pablo Picasso: A Glass</option>
+                        <option>Pablo Picasso: Lovers</option>
+                        <option>Henri Matisse: Andre Derain</option>
+                        <option>Jacques Louis David: Sisters Zénaïde and Charlotte Bonaparte</option>
                      </select>
                      </p>
-                     <!-- <p>	
-                     <label>City</label><br/>               
-                     <input type="text" name="city" list="cities" />
-                     <datalist id="cities">
-                        <option>Calgary</option>                
-                        <option>Montreal</option>
-                        <option>Toronto</option>                  
-                        <option>Vancouver</option>
-                     </datalist>
-                     </p> -->
+               </tr>
+               <tr>
+                  <td>
+                     <!-- ADD 1 TO 10 SCALE - "HOW LIKELY WOULD YOU BE TO SHARE THIS WEBSITE WITH A FRIEND?" -->
                   </td>
-                  <!-- <td>
-                     <div class="box">
-                        <label>Copyright? </label><br/>
-                        <input type="radio" name="copyright" value="1">All rights reserved<br/>
-                        <input type="radio" name="copyright" value="2" checked>Creative Commons<br/>
-                     </div>
-                     <div class="box">
-                        <label>Creative Commons Types </label><br/>
-                        <input type="checkbox" name="cc[]" value="1">Attribution <br/>
-                        <input type="checkbox" name="cc[]" value="2">Noncommercial <br/>    
-                        <input type="checkbox" name="cc[]" value="3">No Derivative Works <br/>  
-                     </div>               
-                  </td> -->
                </tr>
                <tr>
                   <td colspan="2" >
-                  <div class="rectangle"> 
-                     <label>I accept the software license</label>
+                  <div class="agreement"> 
+                     <label>I agree that my feedback may be used on this website.</label>
                      <input type="checkbox" name="accept" >
                   </div>
                   </td>
                </tr>
                <tr>
-                  <td>
-                        <p>
-                        <label>Rate this photo: <br/>
-                        <input type="number" min="1" max="5" name="rate" />  
-                        </p>                  
-                        <p>
-                        <label>Color Collection: <br/>
-                        <input type="color"  name="color" />   
-                        </p>                  
-                  </td>
-                  <td>
-                     <div class="box">
-                        <p>
-                        <label>Date Taken: <br/>
-                        <input type="date"  name="date" />   
-                        </p>
-                        <p>
-                        <label>Time Taken: <br/>
-                        <input type="time"  name="time" />   
-                        </p>                  
-                     </div>
-                  </td>
-               </tr>
-               <tr>
                   <td colspan="2">
-                     <div class="rectangle"> 
-                        <input type="submit" class="rounded"> <input type="reset" value="Clear Form" class="rounded">      
-                     </div
+                     <div class="submission"> 
+                        <input type="submit" class="rounded">  
+                     </div>
                   </td>
                </tr>
             </table>

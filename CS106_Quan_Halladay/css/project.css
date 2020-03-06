@@ -177,47 +177,37 @@ main {
 
 section {
     margin-bottom: 1em;
-    padding: 0;
+    padding: 0 auto;
     width: 100%;
 }
 
 legend { 
-    font-size: 1.35rem;
-    background-color: #7986CB;
-    height: 1.70rem;
-    color: #E8EAF6;
+    font-size: 1.35em;
+    background: #6C6C6C;
+    color: #FFFFFF;
     width: 100%;
-    margin: 0;
-    padding: 5px 0;
+    margin: 0 auto;
+    padding: 0.25em;
 }
 
 fieldset {
     margin: 0;
     padding: 0;
-    background-color: #C5CAE9;
+    background-color: #E7E7E7;
     width: 100%;
     border: none;
 }
 
-form p {
-    margin-top: 0.5em;
-}
-
 table {
-    border: collapse; 
-    border-spacing: 0;   
     width: 100%;
-    margin: 0 auto;
 }
 
 table tbody td{
-    /* border: 1pt solid #95BEF0;   */
-    line-height: 1.5em;
-    vertical-align: top;
-    padding: 0.5em 0.75em;
+    line-height: 2em;
+    padding: 0.25em 1em;
 }
 
-input[type=text], input[type=date], input[type=time], input[type=number], input[type=color] {
+input[type=text] {
     height: 1.75em;   
 }
 
@@ -226,25 +216,23 @@ select {
 }
 
 input[name=title] {
-    width: 100%;
+    width: 30%;
 }
 
-input[name=city], select {
-    width: 75%;
+input[name=artist], select {
+    width: 35%;
 }
 
 textarea {
     width: 100%;
 }
 
-.box {
-    border: 1pt solid #9FA8DA;
+.agreement {
+    color: #000000;
     padding: 0.5em;
-    margin-bottom: 0.4em;
 }
 
-.rectangle {
-    background-color: #9FA8DA;
+.submission {
     padding: 0.5em;
 }
 
@@ -252,16 +240,14 @@ textarea {
     border: none;
     border-radius: 7px;
     text-align: center;
-    color: white;
+    color: #FFFFFF;
     font-weight: bold;
-    background-color: #E91E63;
+    background-color: #6C6C6C;
     padding: 0.5em 0 0.5em 0;
-    margin: 0.3em;
     width: 7em;
     height: 3em;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .rounded:hover {
-    background-color: #FF4081;
+    background-color: #7ACE88;
 }

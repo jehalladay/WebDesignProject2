@@ -5,3 +5,20 @@ Cameron Quan
     Decided on the overall design and layout of the website
     Created project.css, started on basic design ideas
     Picked artist to research
+
+2/19/20 - 2/25/20:
+    Worked on index.html
+        Created the header/navbar for all pages on website
+        Created the body design, layout and content for the body
+    Did Research on Van Gogh
+    Organized and sorted through needed images for index.html and for Van Gogh page
+
+2/26/20:
+    Completed all work on index.html besides footer
+
+2/27/20 - 3/3/20
+    Created the footer for all pages on website
+
+3/4/20:
+    Completed footer
+    Stated work on form.html
