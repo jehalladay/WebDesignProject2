@@ -251,3 +251,161 @@ textarea {
 .rounded:hover {
     background-color: #7ACE88;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body {
+    font-size: 100%;
+    margin: 0em;
+}
+
+#title {
+    /* background-color:rgba(224,224,224,0.5); */
+    padding: 1rem;
+    /* font-size: 1.5rem;   */
+}
+
+#source {
+    padding-top: 2em;
+}
+
+#foot {
+    margin-top: 3rem;
+}
+
+#footSecond {
+    margin-top: 9rem;
+}
+
+
+
+
+
+
+.artist { 
+    width: 25rem; 
+    list-style-type: none; 
+    padding-bottom: 10em;
+}
+  
+.works { 
+    width: 35rem; 
+    list-style-type: none; 
+    padding-bottom: 26em;
+}
+
+.worksBottom { 
+    width: 35rem; 
+    list-style-type: none; 
+    /* padding-bottom: 20em; */
+}
+
+.about {
+    clear: left;
+    padding: 2rem
+}
+
+.par {
+    margin-top: 5rem;
+    padding: 2rem
+}
+
+.sep {
+    /* margin-bottom: 8rem; */
+    background-color:rgba(255,255,255,0.5);
+    margin: 6rem 1 0 11rem;
+    width: 50rem;
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.5);
+}
+
+.sep h2 {
+    background-color:rgba(224,224,224,0.5);
+    padding: 1rem;
+    font-size: 1.5rem;  
+}
+
+
+
+
+#galleryArtist { position: relative; }
+
+
+    #galleryArtist li { 
+      float: left;
+      display: inline; 
+      /* padding: 2rem;  */
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+    }
+    
+    #galleryArtist img { 
+      border-style: none; 
+    }
+
+    #galleryArtist a { 
+      text-decoration: none; 
+      color: #333; 
+      font-style: italic;
+    }
+
+    #galleryArtist span { 
+      display: none; 
+    }    
+    
+    #galleryArtist a:hover span { 
+      display: block; 
+      position: absolute;
+      top: -12rem; 
+      left: 65rem; 
+      text-align: center; 
+    }
+
+
+
+#galleryWorks { position: relative; }
+
+
+    #galleryWorks li { 
+      float: left;
+      display: inline; 
+      /* padding: 2rem;  */
+      padding-bottom: 5rem;
+      padding-top: 5rem;
+    }
+    
+    #galleryWorks img { 
+      border-style: none; 
+    }
+
+    #galleryWorks a { 
+      text-decoration: none; 
+      color: #333; 
+      font-style: italic;
+    }
+
+    #galleryWorks span { 
+      display: none; 
+    }    
+    
+    #galleryWorks a:hover span { 
+      display: block; 
+      position: absolute;
+      top: 5rem; 
+      left: 65rem; 
+      text-align: center; 
+    }

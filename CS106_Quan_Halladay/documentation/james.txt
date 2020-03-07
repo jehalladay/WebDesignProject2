@@ -3,3 +3,30 @@
             created basic website architecture 
             created a template for the header
             dragged base materials from download into git repo
+
+
+
+
+
+2/19/20: Started work on index.html and project.css
+            created own branch, james_landing_page
+            picked out claude monet as an artist
+            did research on him (wikipedia/reverse image search)
+            created a folder with his works contained in it
+
+
+
+
+
+2/20/20 - 2/24/20: Did research on Monet and found all the work names.
+                    reorgranized photos in photos/james
+                    worked on getting the gallery page to work properly
+                    Agreed to split the work with Cameron and do the Claude Monet and the Van gogh pages while
+                        he did the index and the form
+                    got the basic design of the two pages down
+
+
+2/25/20 - 3/6/20: Put the reasearch from me and cameron into the pages for van gohg and monet   
+                    found all of van gohgs painting titles and dates
+                    Added Cameron's header and footer to the page
+                    put finishing touches on the page
