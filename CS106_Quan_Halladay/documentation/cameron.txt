@@ -22,3 +22,7 @@ Cameron Quan
 3/4/20:
     Completed footer
     Stated work on form.html
+
+3/6/20:
+    Completed work on form.html
+    Ready to submit project
