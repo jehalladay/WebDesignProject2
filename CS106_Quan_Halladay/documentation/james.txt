@@ -30,3 +30,8 @@
                     found all of van gohgs painting titles and dates
                     Added Cameron's header and footer to the page
                     put finishing touches on the page
+
+
+3/16/2020: Created static node server
+                deleted extra pictures
+                restructured file architecture to make server access smoother
