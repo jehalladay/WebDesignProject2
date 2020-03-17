@@ -347,7 +347,7 @@ textarea {
 #galleryArtist a:hover span { 
     display: block; 
     position: absolute;
-    top: -12rem; 
+    top: -10rem; 
     left: 65rem; 
     text-align: center; 
 }
